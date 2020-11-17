@@ -15,13 +15,6 @@ You can install the package via composer:
 composer require agiledrop/laravel-telnyx
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --provider="AGILEDROP\LaravelTelnyx\LaravelTelnyxServiceProvider" --tag="migrations"
-php artisan migrate
-```
-
 You should publish the config file with:
 ```bash
 php artisan vendor:publish --provider="AGILEDROP\LaravelTelnyx\LaravelTelnyxServiceProvider" --tag="config"
